@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SCRIPT_DIR="$HOME/scripts"
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 TARGET_DIR="$HOME/.local/bin"
 
 echo "$SCRIPT_DIR 以下の .sh スクリプトを $TARGET_DIR にリンクします（拡張子なし）..."
