@@ -23,7 +23,7 @@ git status
 
 # 空コミット防止（変更がなければ終了）
 if git diff --quiet && git diff --cached --quiet; then
-  echo "📭 変更がないため、何もpushしませんでした。"
+  echo "変更がないため、何もpushしませんでした。"
   exit 0
 fi
 
