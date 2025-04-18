@@ -26,7 +26,6 @@ usage() {
   echo ""
   echo "すべてのオプションを併用した例"
   echo "  $0 \"Example_i.txt\" -s 1 -e 5 -t 2 -z 3 -p i -f -d output_dir -n"
-  echo "上記の例ではoutput_dirというディレクトリの中にExample_001.txt Example_003.txt Example_005.txtなどのファイルを作成する予定です"
 }
 
 #----------------------------------------------------------------
